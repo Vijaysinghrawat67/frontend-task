@@ -1,5 +1,5 @@
 import React from 'react';
-import ServiceCard from '../components/services/ServiceCard.jsx';
+import ServiceCard from '../components/services/Servicecard.jsx';
 import { FaCode, FaCloud, FaRobot, FaMobileAlt, FaSearch, FaShieldAlt, FaCheckCircle } from 'react-icons/fa';
 
 const ServicesPage = () => {
