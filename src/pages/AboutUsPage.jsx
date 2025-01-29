@@ -1,7 +1,7 @@
 import React from 'react';
 import AboutOverview from "../components/about/AboutOverview.jsx";
 import MissionVision from "../components/about/MissionVision.jsx";
-import Highlights from "../components/about/Highlights.jsx";
+import Highlights from "../components/about/HighLights.jsx";
 import TeamSection from "../components/about/TeamSection.jsx";
 
 const AboutUsPage = () => {
