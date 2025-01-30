@@ -95,7 +95,7 @@ Welcome to the TechNova Innovations Website! This project is a visually appealin
 
 ## Live Demo
 
-Check out the live demo of the TechNova Innovations Website [here](https://your-live-demo-link.com).
+Check out the live demo of the TechNova Innovations Website [here](https://frontend-task-rust.vercel.app/).
 
 ## Acknowledgements
 
