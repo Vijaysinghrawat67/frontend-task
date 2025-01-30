@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FaFacebook, FaTwitter, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 const Footer = () => {
@@ -15,10 +16,10 @@ const Footer = () => {
           {/* Navigation Links */}
           <div className="w-full md:w-1/3 flex justify-center mb-4 md:mb-0">
             <ul className="space-x-6 flex">
-              <li><a href="/" className="hover:text-white transition">Home</a></li>
-              <li><a href="/services" className="hover:text-white transition">Services</a></li>
-              <li><a href="/about" className="hover:text-white transition">About Us</a></li>
-              <li><a href="/contact" className="hover:text-white transition">Contact Us</a></li>
+              <li><Link to="/" className="hover:text-white transition">Home</Link></li>
+              <li><Link to="/services" className="hover:text-white transition">Services</Link></li>
+              <li><Link to="/about" className="hover:text-white transition">About Us</Link></li>
+              <li><Link to="/contact" className="hover:text-white transition">Contact Us</Link></li>
             </ul>
           </div>
 
